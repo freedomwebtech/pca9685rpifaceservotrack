@@ -18,7 +18,7 @@ while True:
     img=cv2.flip(img,1)
     
     img, bboxs = detector.findFaces(img)
-#    kit.servo[0].angle = position  
+
     if bboxs:
         # bboxInfo - "id","bbox","score","center"
        
