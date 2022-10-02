@@ -10,7 +10,7 @@ cap = cv2.VideoCapture(0)
 detector = FaceDetector()
 
 position=90
-b=5
+
 kit.servo[0].angle = position   
 while True:
     success, img = cap.read()
